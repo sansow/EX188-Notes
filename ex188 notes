@@ -1,7 +1,8 @@
-Implement images using Podman
- interact with live containers - mount directories from host, access them inside container.
+Implement images using Podman - Practice using FROM , ADD, COPY , RUN , ENV , CMD and ENTRYPOINT Instructions.
+Interact with live containers - mount directories from host, access them inside container.
 Manage images - create Containerfile, build images, tag them, push them to a registry and use that image to spin up containers.
-Run containers locally using Podman - Build container similar images and run them with various ENV directives
-Run multi-container applications with Podman ( podman-compose ) - 3 tier app 
+Run containers locally using Podman - Build an image and run 2 containers from same image.
+  Multi stage build etc.
+Run multi-container applications with Podman ( podman-compose ) - build and run a 3 tier app using compose file.
 Troubleshoot containerized applications - 3 tier app , establish communication between containers connected via podman network. Frontend container
   to be reachable from a reverse proxy server
